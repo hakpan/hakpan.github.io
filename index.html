@@ -4,8 +4,27 @@
 		<meta charset="UTF-8">
 		<title>HTML and CSS Workshop</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+		        {
+		            margin: 0;
+		            padding: 0;
+		        }
+		        .imgbox {
+		            display: grid;
+		            height: 100%;
+		        }
+		        .center-fit {
+		            max-width: 100%;
+		            max-height: 100vh;
+		            margin: auto;
+		        }
+		  </style>
 	</head>
+
 	<body>
+		<div class="imgbox">
+			<img src="images\CoffeeHakpan.jpg" alt="Coffee Hero">
+		</div>
 		<h1>Awesome Header</h1>
 			<nav>
 				<li>Nav Item1</li>
@@ -19,7 +38,7 @@
 					<p>Here is some article content</p>
 				</section>
 			</article>
-			
+
 			<article>
 				<h2>Article Title #2</h2>
 				<section>
@@ -27,7 +46,7 @@
 				</section>
 			</article>
 		</main>
-		
+
 		<footer>
 			Footer!
 		</footer>
